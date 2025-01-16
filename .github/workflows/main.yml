@@ -22,4 +22,5 @@ jobs:
         context: .
         push: true
         tags: rocker/bioconductor:latest
+        file: ./docker/Dockerfile  # 指定 Dockerfile 的路径
 
